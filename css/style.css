@@ -1,0 +1,101 @@
+body {
+	background-size: 100%;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.background {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+.cekva {
+	z-index: 10;
+	position: absolute;
+	display: block;
+}
+.liverp {
+	position: absolute;
+	left: 10px;
+	top:440px;
+	display: block;
+	z-index: 10;
+	height: 200px;
+	width: 200px;
+}
+.dragon {
+	position: absolute;
+	left: 10px;
+	top:350px;
+	display: block;
+	z-index: 10;
+	animation: siaruli2 4s  infinite;
+}
+.mario {
+	position: absolute;
+	left: 10px;
+	top:480px;
+	display: block;
+	z-index: 10;
+	animation: siaruli 4s  infinite;
+}
+.liv {
+	position: absolute;
+	display: block;
+	z-index: 21;
+	height: 100px;
+	width: 100px;
+	top: 60px;
+	left: 753px;
+
+}
+.mze {
+	top: 10px;
+	left: 700px;
+	position: absolute;
+	display: block;
+	z-index: 20;
+	width: 200px;
+	height: 200px;
+}
+#e {
+	top: 160px;
+	left: 265px;
+}
+#f {
+	top: 240px;
+	left: 650px;
+}
+#g {
+	top: 180px;
+	left: 1045px;
+}
+
+#a {
+	top: 310px;
+	left: 290px;
+}
+#b {
+	top: 390px;
+	left: 680px;
+}
+#c  {
+	top: 320px;
+	left: 1070px;
+}
+
+@keyframes animate {
+
+0%{transform: translateY(-90%);}}
+
+@keyframes siaruli {
+0%{transform: translatex(-300px);}
+100%{transform: translatex(2100px);}
+}
+@keyframes siaruli2 {
+0%{transform: translatex(-900px);}
+100%{transform: translatex(2100px);}
+}
+.liv:hover {
+	transform: scale(2.2);
+}
